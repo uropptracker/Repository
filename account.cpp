@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Account::Account()
+Account::Account2()
 {
 	id = -1;
 	balance = 0;
