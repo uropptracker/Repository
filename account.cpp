@@ -3,18 +3,31 @@
 
 using namespace std;
 
-Account::Account2()
+Account::Account()
+{
+	id = -5;
+	balance = 0;
+}
+
+Account::Account3()
+{
+	id = -53423;
+	balance = 0;
+}
+
+
+Account::Account22()
 {
 	id = -1;
 	balance = 0;
 }
 
-int Account::get_id() const
+int Account::get_id222() const
 {
 	return id;
 }
 
-const char* Account::get_name() const
+const char* Account::get_name2222() const
 {
 	return name;
 }
