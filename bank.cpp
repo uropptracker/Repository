@@ -8,6 +8,11 @@ Bank::Bank()
 	num_accounts = 0;
 }
 
+Bank::Bank2()
+{
+	num_accounts = 1;
+}
+
 int Bank::create_account(const char* client_name)
 {
 	account[num_accounts].set_id(num_accounts);
